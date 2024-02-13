@@ -1,9 +1,22 @@
 <div class="person">
-  <span class="elem">
-    {{ id }}
-  </span>
-  <span class="elem">
-    {{ name }}
-  </span>
+  <div class="info">
+    <span class="elem">
+      {{ id }}
+    </span>
+    <span class="elem">
+      {{ name }}
+    </span>
+  </div>
   <img class="avatar" [src]="avatarLink"  alt="avatar"/>
+  <span class="button">
+    <button mat-fab color="normal" (click)="onButtonClick()"></button>
+  </span>
+  <div class="viewBox">
+    <span class="elem" *ngIf="viewed">
+      Viewed
+    </span>
+    <span class="elem" *ngIf="!viewed">
+      Not viewed
+    </span>
+  </div>
 </div>

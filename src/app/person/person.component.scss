@@ -1,0 +1,43 @@
+.person {
+  background: #efefcf;
+  padding: 3px;
+  margin: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.info {
+  display: flex;
+}
+
+.elem {
+  width:50%;
+}
+
+.avatar {
+  height: 30px;
+  width: auto;
+  padding: 5px;
+}
+
+.viewBox, .info {
+  padding: 10px 0;
+  width:15%;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+button {
+  height: inherit;
+  width: inherit;
+}
+
+.mat-normal {
+  background-color: #efef7f;
+  color: #fff;
+}
