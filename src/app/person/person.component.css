@@ -1,0 +1,18 @@
+.person {
+  background: #dfdfef;
+  height: 30px;
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.elem {
+  padding: 5px 0;
+  height: inherit
+}
+
+.avatar {
+  height: inherit;
+  width: auto;
+}
